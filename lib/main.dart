@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'core.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,14 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          body: Center(
-            child: Container(
-              child: const Text("Welcome to my News App"),
-            ),
-          ),
-        ));
+      title: 'News App',
+      debugShowCheckedModeBanner: false,
+      routes: routesScreen,
+    );
   }
 }
