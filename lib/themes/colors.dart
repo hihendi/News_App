@@ -1,5 +1,6 @@
 //theme color
 import 'package:flutter/material.dart';
+import 'xcore.dart';
 
 // Primary
 Color primaryColor = const Color(0xFF1877F2);
@@ -38,3 +39,14 @@ Color darkModeBackgroundColor = const Color(0xFF1C1E21);
 Color darkModeTitleColor = const Color(0xFFE4E6EB);
 Color darkModeBodyColor = const Color(0xFFB0B3B8);
 Color darkModeInputBackgroundColor = const Color(0xFF3A3B3C);
+
+class Themes {
+  static final light = ThemeData(
+    brightness: Brightness.light,
+    backgroundColor: grayscaleWhiteColor,
+  );
+  static final black = ThemeData(
+    brightness: Brightness.light,
+    backgroundColor: darkModeBackgroundColor,
+  );
+}

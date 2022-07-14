@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'xcore.dart';
 
 // Size screenSize(context) {
 //   return MediaQuery.of(context).size;
